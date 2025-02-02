@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Keep the items in a row */
+}
+
+.nav-item {
+    margin-left: 20px; /* Space between items */
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.nav-item a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
